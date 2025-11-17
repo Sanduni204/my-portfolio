@@ -11,13 +11,14 @@ My personal portfolio website — a Next.js-based portfolio project.
 3. From the starter folder, install dependencies and run the dev server:
 
 ```bash
-# replace the path below with the actual starter path if different
+
 cd path/to/nextjs-starter
 npm install
 npm run dev
-# or with yarn
-# yarn
-# yarn dev
+
+or with yarn
+yarn
+yarn dev
 ```
 
 4. Open http://localhost:3000 to view the site while developing.
