@@ -12,8 +12,10 @@ import Footer from '../components/Footer'
 export default function Page(){
   return (
     <>
-      <Hero />
-      <main className="container py-12 space-y-16">
+        
+        <main className="container mx-auto px-6 space-y-20 py-16">
+
+        <Hero />
         <About />
         <Skills />
         <Projects />
