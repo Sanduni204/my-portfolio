@@ -1,0 +1,5 @@
+'use client'
+import AnimateSection from './AnimateSection'
+import projects from '../data/projects.json'
+import { motion } from 'framer-motion'
+export default function Projects(){return (<AnimateSection><section id="projects"><h2 className="text-2xl font-poppins mb-4">Projects</h2><div className="grid md:grid-cols-2 gap-6">{projects.map((p:any)=>(<motion.div key={p.title} whileHover={{scale:1.03}} transition={{type:'spring',stiffness:200}} className="bg-white rounded-lg p-4 border shadow-sm"><img src={p.image||'/images/profile.svg'} alt={p.title} className="w-full h-40 object-cover rounded-md mb-3"/><h3 className="font-semibold">{p.title}</h3><p className="text-sm mt-2">{p.description}</p><div className="mt-3 flex flex-wrap gap-2">{p.stack.map((s:any)=>(<span key={s} className="text-xs px-2 py-1 bg-neutral-50 border rounded">{s}</span>))}</div><div className="mt-3 flex gap-3">{p.github && <a href={p.github} target="_blank" rel="noreferrer" className="text-blue-600">GitHub</a>}{p.demo && <a href={p.demo} target="_blank" rel="noreferrer" className="text-blue-600">Live Demo</a>}</div></motion.div>))}</div></section></AnimateSection>)}

@@ -1,0 +1,25 @@
+{
+  "Programming Languages": [
+    "JavaScript",
+    "PHP",
+    "HTML",
+    "CSS",
+    "Java"
+  ],
+  "Frameworks & Libraries": [
+    "React",
+    "Next.js",
+    "Laravel",
+    "Bootstrap"
+  ],
+  "Databases": [
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB"
+  ],
+  "Tools & Technologies": [
+    "Figma",
+    "Git",
+    "GitHub"
+  ]
+}

@@ -1,0 +1,2 @@
+'use client'
+export default function Footer(){return (<footer className="bg-white border-t mt-12 py-6"><div className="container text-center text-sm text-neutral-600">© Sanduni Hansika. All rights reserved.</div></footer>)}

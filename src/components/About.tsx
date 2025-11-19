@@ -1,0 +1,3 @@
+'use client'
+import AnimateSection from './AnimateSection'
+export default function About(){return (<AnimateSection><section id="about"><h2 className="text-2xl font-poppins mb-4">About Me</h2><p>I am an undergraduate pursuing a <strong>BSc (Hons) in Computing & Information Systems</strong> at Sabaragamuwa University of Sri Lanka. I enjoy creating meaningful digital experiences, exploring new technologies, and solving problems with clarity and creativity.</p></section></AnimateSection>)}

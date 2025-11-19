@@ -1,0 +1,3 @@
+'use client'
+import AnimateSection from './AnimateSection'
+export default function Volunteering(){return (<AnimateSection><section id="volunteering"><h2 className="text-2xl font-poppins mb-4">Volunteering</h2><ul className="list-disc ml-6 space-y-2"><li>Committee Member — IEEE Student Branch, Sabaragamuwa University (2025/2026)</li><li>Volunteer — PerlHack 3.0 Support Team, Sabaragamuwa University</li><li>Volunteer Coordinator — Computing Undergraduate Research Symposium</li></ul></section></AnimateSection>)}
