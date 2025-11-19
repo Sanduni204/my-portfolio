@@ -1,6 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap');
+/* globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html,body{font-family:Inter, sans-serif;background:#F8FAFC;color:#0F172A}
+
+:root{
+	--card-bg: #FFFFFF;
+	--muted: #587265;
+}
+/* Deep Botanical palette variables */
+:root{
+	--brand-green: #7F9C85;
+	--brand-green-light: #9DB5A3;
+	--brand-green-dark: #4E6E5A;
+
+	--bg-darkest: #0F1A14;
+	--bg-dark: #1E2B25;
+	--bg-moss: #152019;
+	--bg-grey: #2B3832;
+
+	--pastel-cream: #F3EEE7;
+	--pastel-soft: #DDE5DF;
+	--pastel-mist: #EEF2EF;
+	--pastel-pink: #FFBFD7;
+
+	--text-primary: #E8ECE9;
+	--text-secondary: #B6C1BA;
+	--text-muted: #8FA097;
+}
+
+/* subtle frosted hero backdrop (tuned darker) */
+.hero-grid {
+	background-image: radial-gradient(rgba(232,236,233,0.02) 1px, transparent 1px);
+	background-size: 28px 28px;
+	background-color: var(--bg-darkest);
+}
+
+/* gentle soft shadow for cards on dark background */
+.card-soft {
+	background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.04));
+	box-shadow: 0 10px 30px rgba(4,8,6,0.6);
+}
+
+/* simple focus style */
+:focus {
+	outline: 3px solid rgba(127,156,133,0.18);
+	outline-offset: 2px;
+}
+
+html,body{font-family:Inter, sans-serif;background:var(--bg-darkest);color:var(--text-primary)}
 .container{max-width:1100px;margin:0 auto;padding:0 1rem}
