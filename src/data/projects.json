@@ -11,45 +11,31 @@
       "PostgreSQL"
     ],
     "github": "https://github.com/BlockAce01/Examind.git",
-    "demo": ""
+    "demo": "",
+    "image": "/images/projects/examind.png"
   },
   {
     "title": "Farm Management System",
     "description": "A full-stack application for livestock and farm operations management developed for Sabaragamuwa University.",
-    "stack": [
-      "Laravel",
-      "PHP",
-      "MySQL",
-      "Bootstrap",
-      "JavaScript"
-    ],
+    "stack": ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"],
     "github": "https://github.com/sajithcode/farm-management-system-susl.git",
-    "demo": ""
+    "demo": "",
+    "image": "/images/projects/farm-management.png"
   },
   {
     "title": "Eterna Care",
     "description": "Crematorium booking and management system with reservations, payments and admin dashboard.",
-    "stack": [
-      "PHP",
-      "MySQL",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
+    "stack": ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
     "github": "https://github.com/yasith02/team_Biverse.git",
-    "demo": ""
+    "demo": "",
+    "image": "/images/projects/eterna.png"
   },
   {
     "title": "Mer Florist Website",
     "description": "Responsive e-commerce website for a florist with product catalog, authentication, and admin dashboard (in progress).",
-    "stack": [
-      "PHP",
-      "MySQL",
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "stack": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Sanduni204/mer-florist-website.git",
-    "demo": ""
+    "demo": "",
+    "image": "/images/projects/mer.png"
   }
 ]

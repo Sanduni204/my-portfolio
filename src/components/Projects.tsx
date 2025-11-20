@@ -31,8 +31,12 @@ export default function Projects(){
 									<span key={s} className="text-xs px-2 py-1 bg-pastel-soft text-textc-muted rounded">{s}</span>
 								))}
 							</div>
-							<div className="mt-4 flex gap-4">
-								{p.github && <a href={p.github} target="_blank" rel="noreferrer" className="text-brand-green hover:underline">GitHub</a>}
+							<div className="mt-4 flex gap-4 items-center">
+								{p.github && (
+									<a href={p.github} target="_blank" rel="noreferrer" className="inline-flex items-center">
+										<img src="/images/Icons/github.svg" alt={`${p.title} GitHub`} className="w-5 h-5" />
+									</a>
+								)}
 								{p.demo && <a href={p.demo} target="_blank" rel="noreferrer" className="text-brand-green hover:underline">Live Demo</a>}
 							</div>
 						</MDiv>

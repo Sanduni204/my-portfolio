@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 const MDiv: any = motion.div;
 
+// ICON MAPPING → match your folder: /public/images/icons/*.svg
 const skillLogos: any = {
   JavaScript: "/images/icons/javascript.svg",
   PHP: "/images/icons/php.svg",
@@ -50,11 +51,8 @@ export default function Skills() {
               </div>
 
               {/* RIGHT ICON GRID */}
-              <div className="relative bg-brand-background-grey/20 border border-brand-background-grey/30 
+              <div className="bg-brand-background-grey/20 border border-brand-background-grey/30 
                 rounded-2xl p-5 flex flex-wrap gap-4 shadow-sm">
-
-                {/* Dotted connector */}
-                <span className="absolute -left-6 top-1/2 w-6 border-t border-dashed border-brand-background-grey/60"></span>
 
                 {items.map((skill: string) => (
                   <div
