@@ -23,12 +23,13 @@ export default function Projects(){
 				<MDiv variants={container} initial="hidden" whileInView="visible" viewport={{ once:true, amount: 0.15 }} className="grid md:grid-cols-2 gap-6">
 					{projects.map((p:any) => (
 						<MDiv key={p.title} variants={item} whileHover={{scale:1.03}} transition={{type:'spring',stiffness:200}} className="bg-brand-background-grey rounded-xl p-6 border border-brand-background-grey shadow-lg hover:shadow-xl transition">
-							<img src={p.image||'/images/profile-logo.png'} alt={p.title} className="w-full h-44 object-cover rounded-xl mb-4"/>
+							<img src={p.image||'/images/profile-logo.png'} alt={p.title} className="w-full h-44 object-cover rounded-xl mb-4 opacity-60 hover:opacity-100 transition-opacity duration-200"/>
+
 							<h3 className="font-semibold text-textc-primary text-lg">{p.title}</h3>
 							<p className="text-sm text-textc-secondary mt-2">{p.description}</p>
 							<div className="mt-3 flex flex-wrap gap-2">
 								{p.stack.map((s:any) => (
-									<span key={s} className="text-xs px-2 py-1 bg-pastel-soft text-textc-muted rounded">{s}</span>
+									<span key={s} className="text-xs px-2 py-1 bg-brand-background-grey text-textc-primary rounded border border-brand-background-moss/30 opacity-80 hover:opacity-100 hover:bg-brand-background-moss transition-colors duration-150">{s}</span>
 								))}
 							</div>
 							<div className="mt-4 flex gap-4 items-center">
