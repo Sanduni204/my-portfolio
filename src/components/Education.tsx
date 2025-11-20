@@ -20,7 +20,7 @@ export default function Education() {
           <div className="bg-brand-green mb-10 rounded-full"></div>
 
           {/* Timeline container */}
-          <div className="space-y-10 border-l border-brand-background-grey/40 pl-6">
+          <div className="space-y-10 border-0 border-brand-background-grey/40 pl-6">
 
             {/* University */}
             <div className="relative">
