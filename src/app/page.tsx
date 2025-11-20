@@ -8,6 +8,7 @@ import Certifications from '../components/Certifications'
 import Volunteering from '../components/Volunteering'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import Education from '../components/Education'
 
 export default function Page(){
   return (
@@ -17,6 +18,7 @@ export default function Page(){
 
         <Hero />
         <About />
+        <Education />
         <Skills />
         <Projects />
         <Achievements />
