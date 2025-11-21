@@ -1,22 +1,37 @@
 [
   {
     "title": "PHP with MySQL: Build Real Estate Management System",
-    "provider": "Udemy"
+    "provider": "Udemy",
+    "slug": "php-mysql-real-estate",
+    "url": "https://www.linkedin.com/posts/sanduni-hansika-b33575388_udemy-webdevelopment-php-activity-7380325469310730240-KUkO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF962xcBqehMyTPbSLt0TDr-7bPF3erukMM",
+    "category": "Full-Stack Development Certifications"
   },
   {
     "title": "HTML, CSS, and JavaScript Basics",
-    "provider": "Coursera"
+    "provider": "Coursera",
+    "slug": "html-css-js-basics",
+    "url": "https://www.linkedin.com/posts/sanduni-hansika-b33575388_coursera-webdevelopment-learningjourney-activity-7380324469690540032-UztZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF962xcBqehMyTPbSLt0TDr-7bPF3erukMM",
+    "category": "Full-Stack Development Certifications"
   },
   {
     "title": "Web Development Fundamentals",
-    "provider": "SoloLearn"
+    "provider": "SoloLearn",
+    "slug": "web-development-fundamentals",
+    "url": "https://www.linkedin.com/posts/sanduni-hansika-b33575388_webdevelopment-upskilling-learningjourney-activity-7380320196168794112-BlLy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF962xcBqehMyTPbSLt0TDr-7bPF3erukMM",
+    "category": "Full-Stack Development Certifications"
   },
   {
     "title": "Generative AI for Everyone",
-    "provider": "Simplilearn SkillUp"
+    "provider": "Simplilearn SkillUp",
+    "slug": "generative-ai-for-everyone",
+    "url": "https://www.linkedin.com/posts/sanduni-hansika-b33575388_generativeai-ai-skilldevelopment-activity-7380333546227527680-AqNU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF962xcBqehMyTPbSLt0TDr-7bPF3erukMM",
+    "category": "AI & Emerging Technologies Certifications"
   },
   {
     "title": "Project Management 101",
-    "provider": "Simplilearn SkillUp"
+    "provider": "Simplilearn SkillUp",
+    "slug": "project-management-101",
+    "url": "https://www.linkedin.com/posts/sanduni-hansika-b33575388_projectmanagement-professionaldevelopment-activity-7380331059638345728-jnm-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF962xcBqehMyTPbSLt0TDr-7bPF3erukMM",
+    "category": "Project Management Certifications"
   }
 ]
