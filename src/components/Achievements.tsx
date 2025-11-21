@@ -8,10 +8,10 @@ const MDiv: any = motion.div as any
 
 export default function Achievements() {
 	const images: string[] = [
-		'/images/achievements/finals.jpg',
-		'/images/achievements/group.jpg',
-		'/images/achievements/presents.jpg',
-		'/images/achievements/selected.jpg',
+		'/images/achievements/Achievement_1-1.jpeg',
+		'/images/achievements/Achievement_1-2.jpeg',
+		'/images/achievements/Achievement_1-3.jpeg',
+		'/images/achievements/Achievement_1-4.jpeg',
 	]
 
 	const [index, setIndex] = useState<number>(0)
@@ -67,6 +67,31 @@ export default function Achievements() {
 							>
 								›
 							</button>
+
+							{/* LinkedIn icon*/}
+							<a
+								href="https://www.linkedin.com/posts/sanduni-hansika-b33575388_hacklikeagirl2abr0-slasscom-teamquasar-activity-7380321933806182400-_WEP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF962xcBqehMyTPbSLt0TDr-7bPF3erukMM"
+								target="_blank"
+								rel="noreferrer"
+								aria-label="Open LinkedIn profile"
+								className="absolute left-3 top-3 bg-white/90 text-black rounded-full px-2 py-1 hover:bg-white/95"
+							>
+								<span className="text-sm font-semibold leading-none">in</span>
+							</a>
+
+							{/* Link / Open icon — opens current image in a new tab */}
+							<a
+								href={images[index]}
+								target="_blank"
+								rel="noreferrer"
+								aria-label="Open achievement image in new tab"
+								className="absolute right-3 top-3 bg-black/40 text-white rounded-full p-1.5 hover:bg-black/55"
+							>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" className="w-4 h-4" stroke="currentColor">
+									<path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M14 3h7v7m0-7L10 14" />
+									<path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M5 11v8a1 1 0 001 1h8" />
+								</svg>
+							</a>
 						</div>
 
 						<div className="flex items-center justify-center gap-2 mt-3">
