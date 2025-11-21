@@ -25,7 +25,7 @@ export default function NavBar() {
                 {l.label}
               </a>
             ))}
-            <a href="/cv/Sanduni_Hansika_CV_SE.pdf" className="ml-2 px-4 py-2 bg-brand-green text-white rounded-md text-sm hover:bg-brand-green-dark transition">Download CV</a>
+            <a href="/cv/Sanduni_Hansika_CV_SE.pdf" download className="ml-2 px-4 py-2 bg-brand-green text-white rounded-md text-sm hover:bg-brand-green-dark transition">Download CV</a>
           </nav>
 
           <div className="md:hidden">
@@ -50,7 +50,7 @@ export default function NavBar() {
                 {l.label}
               </a>
             ))}
-            <a href="/cv/Sanduni_Hansika_CV_SE.pdf" className="block mt-2 px-4 py-2 bg-brand-green text-white rounded-md text-sm">Download CV</a>
+            <a href="/cv/Sanduni_Hansika_CV_SE.pdf" download className="block mt-2 px-4 py-2 bg-brand-green text-white rounded-md text-sm">Download CV</a>
           </div>
         </div>
       )}
