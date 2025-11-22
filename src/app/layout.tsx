@@ -4,7 +4,7 @@ export const metadata = {
   title: 'Sanduni Hansika',
   description: 'Portfolio',
   icons: {
-    icon: 'images/profile-logo.png',
+    icon: '/my-portfolio/images/profile-logo.png',
       },
 };
 
