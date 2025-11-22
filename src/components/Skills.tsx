@@ -2,29 +2,29 @@
 import AnimateSection from "./AnimateSection";
 import skills from "../data/skills.json";
 import { motion } from "framer-motion";
+import Image from 'next/image'
 
 const MDiv: any = motion.div;
 
 // ICON MAPPING → match your folder: /public/images/icons/*.svg
 const skillLogos: any = {
-  JavaScript: "/images/icons/javascript.svg",
-  PHP: "/images/icons/php.svg",
-  HTML: "/images/icons/html.svg",
-  CSS: "/images/icons/css.svg",
-  Java: "/images/icons/java.svg",
+  JavaScript: "/my-portfolio/images/icons/javascript.svg",
+  PHP: "/my-portfolio/images/icons/php.svg",
+  HTML: "/my-portfolio/images/icons/html.svg",
+  CSS: "/my-portfolio/images/icons/css.svg",
+  Java: "/my-portfolio/images/icons/java.svg",
 
-  React: "/images/icons/react.svg",
-  "Next.js": "/images/icons/nextjs.svg",
-  Laravel: "/images/icons/laravel.svg",
-  Bootstrap: "/images/icons/bootstrap.svg",
+  React: "/my-portfolio/images/icons/react.svg",
+  "Next.js": "/my-portfolio/images/icons/nextjs.svg",
+  Laravel: "/my-portfolio/images/icons/laravel.svg",
+  Bootstrap: "/my-portfolio/images/icons/bootstrap.svg",
 
-  MySQL: "/images/icons/mysql.svg",
-  PostgreSQL: "/images/icons/postgresql.svg",
-  MongoDB: "/images/icons/mongodb.svg",
-
-  Figma: "/images/icons/figma.svg",
-  Git: "/images/icons/git.svg",
-  GitHub: "/images/icons/github.svg",
+  MySQL: "/my-portfolio/images/icons/mysql.svg",
+  PostgreSQL: "/my-portfolio/images/icons/postgresql.svg",
+  MongoDB: "/my-portfolio/images/icons/mongodb.svg",
+  Figma: "/my-portfolio/images/icons/figma.svg",
+  Git: "/my-portfolio/images/icons/git.svg",
+  GitHub: "/my-portfolio/images/icons/github.svg",
 };
 
 export default function Skills() {
@@ -61,7 +61,7 @@ export default function Skills() {
                     flex items-center justify-center hover:border-brand-green transition"
                   >
                     <img
-                      src={skillLogos[skill] || "/images/icons/default.svg"}
+                      src={skillLogos[skill] || "/my-portfolio/images/icons/default.svg"}
                       alt={skill}
                       className="w-10 h-10 object-contain"
                     />

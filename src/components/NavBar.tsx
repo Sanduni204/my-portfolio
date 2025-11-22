@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react'
+import Image from 'next/image'
 
 export default function NavBar() {
   const [open, setOpen] = useState(false)
@@ -16,7 +17,7 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center gap-3">
-            <img src="/images/profile-logo.png" alt="EAxt logo" className="w-10 h-10 object-contain rounded-full" />
+            <img src="/my-portfolio/images/profile-logo.png" alt="EAxt logo" className="w-10 h-10 object-contain rounded-full" />
                   </a>
 
           <nav className="hidden md:flex items-center gap-6">

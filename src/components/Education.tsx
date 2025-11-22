@@ -1,6 +1,7 @@
 'use client'
 import AnimateSection from './AnimateSection'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 const MDiv: any = motion.div as any
 
 export default function Education() {
@@ -27,7 +28,7 @@ export default function Education() {
 
               <div className="flex items-start gap-4">
                 <img
-                  src="/images/uni-logo.png"
+                  src="/my-portfolio/images/uni-logo.png"
                   alt="University Logo"
                   className="w-14 h-14 object-contain rounded-md bg-white/10 p-2 border border-brand-background-grey"
                 />
@@ -47,7 +48,7 @@ export default function Education() {
 
               <div className="flex items-start gap-4">
                 <img
-                  src="/images/school-logo.png"
+                  src="/my-portfolio/images/school-logo.png"
                   alt="School Logo"
                   className="w-14 h-14 object-contain rounded-md bg-white/10 p-2 border border-brand-background-grey"
                 />

@@ -12,7 +12,7 @@
     ],
     "github": "https://github.com/BlockAce01/Examind.git",
     "demo": "",
-    "image": "/images/projects/examind.png"
+    "image": "/my-portfolio/images/projects/examind.png"
   },
   {
     "title": "Farm Management System",
@@ -20,7 +20,7 @@
     "stack": ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"],
     "github": "https://github.com/sajithcode/farm-management-system-susl.git",
     "demo": "",
-    "image": "/images/projects/farm-management.png"
+    "image": "/my-portfolio/images/projects/farm-management.png"
   },
   {
     "title": "Eterna Care",
@@ -28,7 +28,7 @@
     "stack": ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
     "github": "https://github.com/yasith02/team_Biverse.git",
     "demo": "",
-    "image": "/images/projects/eterna.png"
+    "image": "/my-portfolio/images/projects/eterna.png"
   },
   {
     "title": "Mer Florist Website",
@@ -36,6 +36,6 @@
     "stack": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Sanduni204/mer-florist-website.git",
     "demo": "",
-    "image": "/images/projects/mer.png"
+    "image": "/my-portfolio/images/projects/mer.png"
   }
 ]

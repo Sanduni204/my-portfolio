@@ -2,6 +2,7 @@
 import AnimateSection from './AnimateSection'
 import projects from '../data/projects.json'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 export default function Projects(){
 	const MDiv: any = motion.div as unknown as any
@@ -23,7 +24,7 @@ export default function Projects(){
 				<MDiv variants={container} initial="hidden" whileInView="visible" viewport={{ once:true, amount: 0.15 }} className="grid md:grid-cols-2 gap-6">
 					{projects.map((p:any) => (
 						<MDiv key={p.title} variants={item} whileHover={{scale:1.03}} transition={{type:'spring',stiffness:200}} className="bg-brand-background-grey rounded-xl p-6 border border-brand-background-grey shadow-lg hover:shadow-xl transition">
-							<img src={p.image||'/images/profile-logo.png'} alt={p.title} className="w-full h-44 object-cover rounded-xl mb-4 opacity-60 hover:opacity-100 transition-opacity duration-200"/>
+							<img src={p.image||'/my-portfolio/images/profile-logo.png'} alt={p.title} className="w-full h-44 object-cover rounded-xl mb-4 opacity-60 hover:opacity-100 transition-opacity duration-200"/>
 
 							<h3 className="font-semibold text-textc-primary text-lg">{p.title}</h3>
 							<p className="text-sm text-textc-secondary mt-2">{p.description}</p>
@@ -35,7 +36,7 @@ export default function Projects(){
 							<div className="mt-4 flex gap-4 items-center">
 								{p.github && (
 									<a href={p.github} target="_blank" rel="noreferrer" className="inline-flex items-center">
-										<img src="/images/Icons/github.svg" alt={`${p.title} GitHub`} className="w-5 h-5" />
+										<img src="/my-portfolio/images/Icons/github.svg" alt={`${p.title} GitHub`} className="w-5 h-5" />
 									</a>
 								)}
 								{p.demo && <a href={p.demo} target="_blank" rel="noreferrer" className="text-brand-green hover:underline">Live Demo</a>}
