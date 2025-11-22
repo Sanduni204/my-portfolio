@@ -8,23 +8,24 @@ const MDiv: any = motion.div;
 
 // ICON MAPPING → match your folder: /public/images/icons/*.svg
 const skillLogos: any = {
-  JavaScript: "/my-portfolio/images/icons/javascript.svg",
-  PHP: "/my-portfolio/images/icons/php.svg",
-  HTML: "/my-portfolio/images/icons/html.svg",
-  CSS: "/my-portfolio/images/icons/css.svg",
-  Java: "/my-portfolio/images/icons/java.svg",
-
-  React: "/my-portfolio/images/icons/react.svg",
-  "Next.js": "/my-portfolio/images/icons/nextjs.svg",
-  Laravel: "/my-portfolio/images/icons/laravel.svg",
-  Bootstrap: "/my-portfolio/images/icons/bootstrap.svg",
-
-  MySQL: "/my-portfolio/images/icons/mysql.svg",
-  PostgreSQL: "/my-portfolio/images/icons/postgresql.svg",
-  MongoDB: "/my-portfolio/images/icons/mongodb.svg",
-  Figma: "/my-portfolio/images/icons/figma.svg",
-  Git: "/my-portfolio/images/icons/git.svg",
-  GitHub: "/my-portfolio/images/icons/github.svg",
+  JavaScript: "/my-portfolio/images/Icons/javascript.svg",
+  PHP: "/my-portfolio/images/Icons/php.svg",
+  HTML: "/my-portfolio/images/Icons/html.svg",
+  CSS: "/my-portfolio/images/Icons/css.svg",
+  Java: "/my-portfolio/images/Icons/java.svg",
+  
+  React: "/my-portfolio/images/Icons/react.svg",
+  "Next.js": "/my-portfolio/images/Icons/nextjs.svg",
+  Laravel: "/my-portfolio/images/Icons/laravel.svg",
+  Bootstrap: "/my-portfolio/images/Icons/bootstrap.svg",
+  
+  MySQL: "/my-portfolio/images/Icons/mysql.svg",
+  PostgreSQL: "/my-portfolio/images/Icons/postgresql.svg",
+  MongoDB: "/my-portfolio/images/Icons/mongodb.svg",
+  
+  Figma: "/my-portfolio/images/Icons/figma.svg",
+  Git: "/my-portfolio/images/Icons/git.svg",
+  GitHub: "/my-portfolio/images/Icons/github.svg",
 };
 
 export default function Skills() {
@@ -61,7 +62,7 @@ export default function Skills() {
                     flex items-center justify-center hover:border-brand-green transition"
                   >
                     <img
-                      src={skillLogos[skill] || "/my-portfolio/images/icons/default.svg"}
+                      src={skillLogos[skill] || "/my-portfolio/images/Icons/default.svg"}
                       alt={skill}
                       className="w-10 h-10 object-contain"
                     />
