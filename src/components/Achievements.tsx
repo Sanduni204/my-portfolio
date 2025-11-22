@@ -9,7 +9,7 @@ const MDiv: any = motion.div as any
 export default function Achievements() {
 	const images: string[] = [
 		'/my-portfolio/images/achievements/Achievement_1-1.jpeg',
-		'/my-portfolio/images/Achievement_1-2.jpeg',
+		'/my-portfolio/images/achievements/Achievement_1-2.jpeg',
 		'/my-portfolio/images/achievements/Achievement_1-3.jpeg',
 		'/my-portfolio/images/achievements/Achievement_1-4.jpeg',
 	]
