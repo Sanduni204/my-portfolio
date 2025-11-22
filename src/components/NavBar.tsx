@@ -51,7 +51,7 @@ export default function NavBar() {
                 {l.label}
               </a>
             ))}
-            <a href="/cv/Sanduni_Hansika_CV_SE.pdf" download className="block mt-2 px-4 py-2 bg-brand-green text-white rounded-md text-sm">Download CV</a>
+            <a href="/my-portfolio/cv/Sanduni_Hansika_CV_FD.pdf" download className="block mt-2 px-4 py-2 bg-brand-green text-white rounded-md text-sm">Download CV</a>
           </div>
         </div>
       )}

@@ -64,8 +64,8 @@ export default function Hero() {
 
             <div className="flex items-center gap-4 mt-6">
               <a
-                href="/cv/Sanduni_Hansika_CV_SE.pdf"
-                download="Sanduni_Hansika_CV_SE.pdf"
+                href="/my-portfolio/cv/Sanduni_Hansika_CV_FD.pdf"
+                download="Sanduni_Hansika_CV_FD.pdf"
                 className="inline-flex items-center gap-3 px-5 py-3 rounded-lg bg-brand-green text-white font-medium shadow-sm hover:bg-brand-green-dark transition"
               >
                 Download CV
