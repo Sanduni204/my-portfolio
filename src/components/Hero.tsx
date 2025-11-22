@@ -20,7 +20,13 @@ export default function Hero() {
   }, [])
 
   return (
-    <header className="hero-grid bg-gradient-to-br from-brand-background-darkest to-brand-background-dark text-textc-primary pt-20 pb-8 md:pt-44 md:pb-14">
+<header className="
+  hero-grid
+  bg-gradient-to-br from-brand-background-darkest to-brand-background-dark
+  text-textc-primary
+  pt-20 pb-24
+  md:pt-44 md:pb-40
+">
 
       <div className="container mx-auto px-6">
 
