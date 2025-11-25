@@ -111,7 +111,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="flex justify-center md:justify-end"
+          className="order-first md:order-last flex justify-center md:justify-end"
         >
           <div className="relative flex items-center justify-center w-full max-w-xs sm:max-w-sm md:max-w-md -mt-20 ">
             <div className="rounded-full p-1 bg-gradient-to-br from-brand-green-dark via-brand-green to-brand-green-light shadow-[0_0_30px_rgba(127,156,133,0.45)]">
